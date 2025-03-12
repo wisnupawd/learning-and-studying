@@ -13,7 +13,7 @@ export default function HomePage() {
 
       <p>
         NextNews aims to provide you with the latest news in a concise and
-        unbiased manner. We strive to deliver the news in a way that is easy to
+        unbiased manner. We strive to deliver the news in a way that is easy tos
         understand and to the point. We want to keep you informed without
         overwhelming you with unnecessary information.
       </p>

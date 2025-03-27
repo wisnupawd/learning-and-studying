@@ -1,4 +1,3 @@
-import {DUMMY_NEWS} from "@/dummy-news";
 import {notFound} from "next/navigation";
 import ModalBackdrop from "@/components/backdrop/modal-backdrop";
 import {getNewsItem} from "@/lib/news";

@@ -1,0 +1,24 @@
+### GET request to fetch student
+GET http://localhost:8080/student
+
+### POST request to create a user
+POST http://localhost:8080/students/create
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "wisnu",
+  "lastName": "prasojo"
+}
+
+### PUT request to update existing students
+PUT http://localhost:8080/students/1/update
+Content-Type: application/json
+
+{
+  "firstName": "wisnu",
+  "lastName": "prasojo"
+}
+
+### DELETE request to delete existing students
+DELETE http://localhost:8080/students/1/delete

@@ -1,0 +1,6 @@
+### create user
+@userId = 1
+DELETE http://localhost:8080/api/v1/users/delete/{{userId}}
+Content-Type: application/json
+Accept: application/json
+###

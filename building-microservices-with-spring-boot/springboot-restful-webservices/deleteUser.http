@@ -4,3 +4,5 @@ DELETE http://localhost:8080/api/v1/users/delete/{{userId}}
 Content-Type: application/json
 Accept: application/json
 ###
+
+docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql

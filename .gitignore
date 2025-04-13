@@ -1,3 +1,89 @@
-node_modules
-node_modules/**
-**/node_modules/**
+# === Java ===
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# === JavaScript / Node.js ===
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.*  # e.g. .env.development, .env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lockfiles (optional — include only if using just one package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build directories
+dist/
+build/
+.next/
+out/  # for Next.js static export
+.cache/
+.eslintcache
+
+# Coverage and testing
+coverage/
+.nyc_output/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Misc
+*.bak
+*.tmp
+*.log
